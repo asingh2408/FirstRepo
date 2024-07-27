@@ -1,0 +1,61 @@
+https://csharp-video-tutorials.blogspot.com/2019/01/aspnet-core-tutorial-for-beginners.html#google_vignette
+
+
+
+
+
+Hyper link & Anchor tag helper
+
+@Html.actionlink
+@url.Action
+
+tag helper
+<a asp-controller="" asp-action=" asp-route-id="@emp.id" class=bootstrapclass>
+
+
+Image tag : asp-append-version="true"
+
+<img src="~/images/noimage.jpg" asp-append-version="true" />
+
+Asp Help class for textbox /label
+
+<label asp-for = Name>
+<input asp-for="Name">
+
+Here asp-items ="Html.GetEnumSelectLis allow to enum list data from server page
+
+<select asp-for="Department" asp-items ="Html.GetEnumSelectList<Dept()">
+
+
+If Id is null and int datatype then you need to convert like Id.Value.Tostring() to tackle Null value 
+
+model bidning looks for datra in http request in form value, route value ( data.com/1) and query string i.e Name ( data.com/1?Namne="ashutosh) 
+--==
+
+Ajax Helper > creation form, Actionlink (https://www.youtube.com/watch?v=Om0jX0PM77g&list=PLaFzfwmPR7_JuVN71I9pEpN8JadDTh0rg&index=42)
+@Ajax.BeginForm()  -- https://www.youtube.com/watch?v=Om0jX0PM77g&list=PLaFzfwmPR7_JuVN71I9pEpN8JadDTh0rg&index=42
+
+
+@ajax.actionlink  with option using json : object to json : Mewtonsoft.Json nuget packet : https://www.youtube.com/watch?v=6xO4QxyVyh4
+
+-----
+
+LINQ -https://www.youtube.com/watch?v=z3PowDJKOSA&list=PL6n9fhu94yhWi8K02Eqxp3Xyh_OmQ0Rp6
+
+IEnumerable <string> names = emp object (multiple rows) -- https://www.youtube.com/watch?v=3Q4LKCIYrzQ
+ 
+Async and await in c#  -- https://www.youtube.com/watch?v=C5VhaxQWcpE
+
+lamda expression  -- https://www.youtube.com/watch?v=LDgQ-spnrYY   // https://www.youtube.com/watch?v=HMsHkqJZllw&list=PL6n9fhu94yhWi8K02Eqxp3Xyh_OmQ0Rp6&index=2
+
+-------------------
+
+@html.Partial     -- https://www.youtube.com/watch?v=OfGhsEOEBIQ
+@Html.RenderPartial
+-----------------------------------
+
+
+
+
+
+
